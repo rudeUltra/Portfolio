@@ -44,7 +44,7 @@ const AboutSection = () => {
       <div className=" border rounded-[22px] my-8 md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-[#AEFEFF] text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4 text-[#AEFEFF]">About Me</h2>
           <p className="text-base lg:text-lg">
           Final Year Computer Science Student seeking and learning various fields of tech, Active on Competitive Coding sites like CodeChef (3 stars), Leetcode 1700+ rating (600+ problems solved), and possessing  knowledge of Full-stack Web Development including react.js and Javascript(ES6) basics with an interest in learning new frameworks and Technologies Constantly.
           </p>
