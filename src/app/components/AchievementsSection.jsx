@@ -17,7 +17,7 @@ const achievementsList = [
   },
   {
     
-    metric: "Customers",
+    metric: "Clients",
     postfix:'+',
     value: "10",
   },
@@ -28,7 +28,7 @@ const achievementsList = [
     
   },
   {
-    metric: "Github Contributions",
+    metric: "GitHub Contributions",
     value: "2500",
     postfix:'+'
   },
