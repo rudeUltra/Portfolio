@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
   <Navbar className=""/> {/* Render Navbar outside of the container */}
-  <main className="flex min-h-screen flex-col bg-[#121212] overflow-hidden">
+  <main className="flex min-h-screen flex-col overflow-hidden">
     <div className="container mt-24 mx-auto px-12 py-4">
      <BackgroundGradient className="bg-black rounded-[22px]">
      <div className="w-full relative overflow-hidden rounded-[22px]">

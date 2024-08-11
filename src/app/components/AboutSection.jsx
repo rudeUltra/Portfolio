@@ -4,7 +4,6 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import { Skills } from "./Skills";
 import { Education } from "./Education";
-import { InfiniteMovingCards } from "./moving-card";
 import { BackgroundGradient } from "./custom-bg";
 const TAB_DATA = [
   {
@@ -42,7 +41,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className=" border rounded-[22px] my-8 md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" width={500} height={500} />
+        <Image src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" width={500} height={500} alt="about-me"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 text-[#AEFEFF]">About Me</h2>
           <p className="text-base lg:text-lg">
