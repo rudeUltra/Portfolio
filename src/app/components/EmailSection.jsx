@@ -31,11 +31,9 @@ const EmailSection = () => {
     };
 
     const response = await fetch(endpoint, options);
-    console.log(response)
     const resData = await response.json();
 
     if (response.status === 200) {
-      console.log("Message sent.");
       setEmailSubmitted(true);
     }
   };
@@ -50,6 +48,9 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2 text-[#AEFEFF]">
           Let&apos;s Connect
         </h5>
+        <img src="https://media1.tenor.com/m/ZmZ7UKIc0soAAAAC/anonymous-anonymous-bites-back.gif" alt="Contact Image" className="w-full h-48 object-cover rounded-lg mb-4" style={{
+          width:'350px'
+        }}></img> 
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always

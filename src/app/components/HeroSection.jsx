@@ -26,20 +26,20 @@ const HeroSection = () => {
               sequence={[
                 "Rudhra",
                 1000,
-                "a Web Developer",
+                "a Software Engineer",
                 1000,
                 "a Programmer",
                 1000,
-                "a Web Designer",
+                "a Web Developer",
                 1000,
               ]}
               wrapper="span"
               speed={20}
               repeat={Infinity}
             />
-          </h1>
+          </h1> 
           <p className="text-[#AEFEFF] text-base sm:text-lg mb-6 lg:text-lg">
-          Full Stack Web Developer | Programmer | Web Designer
+          Software Engineer | Full Stack Web Developer | Programmer
           </p>
           <div>
             <Link

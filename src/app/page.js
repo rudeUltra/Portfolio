@@ -12,7 +12,7 @@ import { Meteors } from "./components/Meteor";
 export default function Home() {
   return (
     <div className="overflow-hidden">
-  <Navbar className=""/> {/* Render Navbar outside of the container */}
+  {/* <Navbar className=""/> */}
   <main className="flex min-h-screen flex-col overflow-hidden">
     <div className="container mt-24 mx-auto px-12 py-4">
      <BackgroundGradient className="bg-black rounded-[22px]">
@@ -23,18 +23,18 @@ export default function Home() {
 
      </BackgroundGradient>
 
-     <div class="flex justify-center items-center">
+     {/* <div class="flex justify-center items-center">
   <div class="text-center">
   <AchievementsSection/>
   
   </div>
-</div>
-      <AboutSection />
+</div> */}
+      {/* <AboutSection />
       
   <InfiniteMovingCards className="mt-5 text-white"/>
   
       
-      <ProjectsSection />
+      <ProjectsSection /> */}
       
       <EmailSection />
     </div>
