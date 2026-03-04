@@ -74,7 +74,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] relative">
             <Image
-              src="/images/hero1-image.png"
+              src="https://portfolio-eight-sigma-23.vercel.app/_next/image?url=%2Fimages%2Fhero1-image.png&w=384&q=75"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={320}
